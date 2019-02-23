@@ -65,7 +65,6 @@ plugins=(
   vi-mode
   web-search
   urltools
-  lol
   iterm2
   emoji-clock
   brew
@@ -77,17 +76,18 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR="/usr/local/share/zsh-syntax-highlighting/highlighters"
-export LDFLAGS="-L/usr/local/opt/readline/lib"
-export CPPFLAGS="-I/usr/local/opt/readline/include"
-export PKG_CONFIG_PATH="/usr/local/opt/readline/lib/pkgconfig"
-export MANPATH="/usr/local/man:$MANPATH"
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
-export PATH="/usr/local/opt/openssl/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/openssl/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
+export CPPFLAGS="-I/usr/local/opt/readline/include"
+export LDFLAGS="-L/usr/local/opt/openssl/lib"
+export LDFLAGS="-L/usr/local/opt/readline/lib"
+export MANPATH="/usr/local/man:$MANPATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 export PKG_CONFIG_PATH="/usr/local/opt/openssl/lib/pkgconfig"
+export PKG_CONFIG_PATH="/usr/local/opt/readline/lib/pkgconfig"
+export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR="/usr/local/share/zsh-syntax-highlighting/highlighters"
 
 export SDKMAN_DIR="/Users/$(whoami)/.sdkman"
 
@@ -120,10 +120,9 @@ bindkey -v
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-#
+alias vi="nvim"
+alias vim="nvim"
+
 alias gpull="find ~/ -type d -name '.git' -execdir git pull +"
 [[ -s "/Users/$(whoami)/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/$(whoami)/.sdkman/bin/sdkman-init.sh"
 alias ll="gls -lash --color=always"
