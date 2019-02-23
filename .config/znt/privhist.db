@@ -1,0 +1,26 @@
+dependency-check -s ./ --project cm-customer --proxyserver 127.0.0.1 --proxyport 8889 -l /tmp/check.log --enableArtifactory --artifactoryUrl http://artifactory.global.dish.com/artifactory --artifactoryUsername dustin.maselbas
+dependency-check -s ./ --project cm-customer --proxyserver 127.0.0.1 --proxyport 8889 -l /tmp/check.log --enableArtifactory --artifactoryUrl http://artifactory.global.dish.com/artifactory --artifactoryUsername dustin.maselbas
+dependency-check -s ./ --project cm-customer --proxyserver 127.0.0.1 --proxyport 8889 -l /tmp/check.log --enableArtifactory --artifactoryUrl http://artifactory.global.dish.com/artifactory --artifactoryUsername dustin.maselbas --artifactoryUseProxy true
+dependency-check -s ./ --project cm-customer --proxyserver 127.0.0.1 --proxyport 8889 -l /tmp/check.log --enableArtifactory --artifactoryUrl http://artifactory.global.dish.com/artifactory --artifactoryUsername dustin.maselbas --artifactoryUseProxy true -f JSON | nvim
+dependency-check -s ./ --project cm-customer --proxyserver 127.0.0.1 --proxyport 8889 -l /tmp/check.log --enableArtifactory --artifactoryUrl https://artifactory.global.dish.com/artifactory --artifactoryUsername dustin.maselbas --artifactoryUseProxy true
+dependency-check -s ./ --project cm-customer --proxyserver 127.0.0.1 --proxyport 8889 -l /tmp/check.log --enableArtifactory --artifactoryUrl https://artifactory.global.dish.com/artifactory --artifactoryUsername dustin.maselbas --artifactoryUseProxy true
+rancher --url https://rancher-np.global.dish.com/v2-beta --access-key $RANCHER_NP_ACCESS_KEY --secret-key $RANCHER_NP_SECRET_KEY --env gitlab-ci scale customer-master/gitlab-runner
+rancher --url https://rancher-np.global.dish.com/v2-beta --access-key $RANCHER_NP_ACCESS_KEY --secret-key $RANCHER_NP_SECRET_KEY --env gitlab-ci inspect 1i4199456
+rancher --url https://rancher-np.global.dish.com/v2-beta --access-key $RANCHER_NP_ACCESS_KEY --secret-key $RANCHER_NP_SECRET_KEY --env gitlab-ci scale customer-master/gitlab-runner=8
+rancher --url https://rancher-np.global.dish.com/v2-beta --access-key $RANCHER_NP_ACCESS_KEY --secret-key $RANCHER_NP_SECRET_KEY --env gitlab-ci logs customer-master/gitlab-runner
+gradle-or-gradlew clean build
+cp ./../cm-owasp-dependency-checker/build/libs/CveDepCheck-1.0-SNAPSHOT.jar gradle/
+cp ./../cm-owasp-dependency-checker/build/libs/CveDepCheck-1.0-SNAPSHOT.jar gradle/
+gradle-or-gradlew task
+cp ./../cm-owasp-dependency-checker/build/libs/CveDepCheck-1.0-SNAPSHOT.jar gradle/
+find ./ -name '*.java' -exec grep -iHn 'verificationAttemptResult' {} \;
+gradle-or-gradlew dealWithCVEs --stacktrace
+gradle-or-gradlew dealWithCVEs --stacktrace
+gradle-or-gradlew dealWithCVEs
+git merge cm-authentication_2.1.0
+git merge cm-authentication_2.1.0
+git merge cm-authentication_2.1.0
+rancher --url https://rancher-np.global.dish.com/v2-beta --access-key 7A0E5965BB5C18D7427D --secret-key MSQwyXGXjrJGkW1E2RBKDLxHRUokKuq4f4EPARzJ --env int restart 1s69143
+gem install neovim
+sudo gem install neovim --source http://rubygems.org
+git clone https://github.com/dmaselbas/dotfiles.git

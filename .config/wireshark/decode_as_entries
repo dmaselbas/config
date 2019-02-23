@@ -1,0 +1,8 @@
+# "Decode As" entries file for Wireshark 2.6.5.
+#
+# This file is regenerated each time "Decode As" preferences
+# are saved within Wireshark. Making manual changes should be safe,
+# however.
+decode_as_entry: udp.port,46885,(none),RTP
+decode_as_entry: udp.port,56820,(none),RTP
+decode_as_entry: udp.port,7038,(none),RTP

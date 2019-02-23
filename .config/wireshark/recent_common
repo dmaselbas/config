@@ -1,0 +1,163 @@
+# Recent settings file for Wireshark 2.6.5.
+#
+# This file is regenerated each time Wireshark is quit.
+# So be careful, if you want to make manual changes here.
+
+######## Recent capture files (latest last), cannot be altered through command line ########
+
+recent.capture_file: /Users/dmaselbas/Downloads/wowza_ticket_resp_0209/wireshark_capture_ff58_tlsmax4_att1_fail.pcapng
+recent.capture_file: /Users/dmaselbas/Downloads/FF.pcap
+
+######## Recent capture filters (latest last), cannot be altered through command line ########
+
+
+######## Recent display filters (latest last), cannot be altered through command line ########
+
+recent.display_filter: ip.dst_host eq DGCALE0059334.local
+recent.display_filter: ip.src_host eq DGCALE0059334.local
+recent.display_filter: btle.data_header.length > 0 || btle.advertising_header.pdu_type == 0x05
+recent.display_filter: ip.dst == 54.241.249.169
+recent.display_filter: (udp.stream eq 4)
+recent.display_filter: udp.stream eq 4
+recent.display_filter: tcp.stream eq 49
+recent.display_filter: tcp.stream eq 48
+recent.display_filter: udp.stream eq 22
+recent.display_filter: tcp.stream eq 39
+
+# Main window geometry.
+# Decimal numbers.
+gui.geometry_main_x: 0
+gui.geometry_main_y: 0
+gui.gtk.geometry_main_x: 20
+gui.gtk.geometry_main_y: 20
+gui.geometry_main_width: 1920
+gui.geometry_main_height: 1200
+
+# Main window maximized.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_main_maximized: FALSE
+
+# Statusbar left pane size.
+# Decimal number.
+gui.geometry_status_pane: 250
+
+# Statusbar middle pane size.
+# Decimal number.
+gui.geometry_status_pane_right: 250
+
+# Last used Configuration Profile.
+gui.last_used_profile: Default
+
+# WLAN statistics upper pane size.
+# Decimal number.
+gui.geometry_status_wlan_stats_pane: 200
+
+# Warn if running with elevated permissions (e.g. as root).
+# TRUE or FALSE (case-insensitive).
+privs.warn_if_elevated: TRUE
+
+# Warn if npf.sys isn't loaded on Windows >= 6.0.
+# TRUE or FALSE (case-insensitive).
+privs.warn_if_no_npf: TRUE
+
+# Geometry and maximized state of FollowStreamDialog window.
+# Decimal integers.
+gui.geom.FollowStreamDialog.x: 1849
+gui.geom.FollowStreamDialog.y: 133
+gui.geom.FollowStreamDialog.width: 960
+gui.geom.FollowStreamDialog.height: 744
+# TRUE or FALSE (case-insensitive).
+gui.geom.FollowStreamDialog.maximized: FALSE
+
+# Geometry and maximized state of PreferencesDialog window.
+# Decimal integers.
+gui.geom.PreferencesDialog.x: 367
+gui.geom.PreferencesDialog.y: 324
+gui.geom.PreferencesDialog.width: 732
+gui.geom.PreferencesDialog.height: 475
+# TRUE or FALSE (case-insensitive).
+gui.geom.PreferencesDialog.maximized: FALSE
+
+# Geometry and maximized state of ExpertInfoDialog window.
+# Decimal integers.
+gui.geom.ExpertInfoDialog.x: 1849
+gui.geom.ExpertInfoDialog.y: 133
+gui.geom.ExpertInfoDialog.width: 960
+gui.geom.ExpertInfoDialog.height: 744
+# TRUE or FALSE (case-insensitive).
+gui.geom.ExpertInfoDialog.maximized: FALSE
+
+# Geometry and maximized state of RtpPlayerDialog window.
+# Decimal integers.
+gui.geom.RtpPlayerDialog.x: 0
+gui.geom.RtpPlayerDialog.y: 44
+gui.geom.RtpPlayerDialog.width: 1366
+gui.geom.RtpPlayerDialog.height: 1000
+# TRUE or FALSE (case-insensitive).
+gui.geom.RtpPlayerDialog.maximized: FALSE
+
+# Geometry and maximized state of EnabledProtocolsDialog window.
+# Decimal integers.
+gui.geom.EnabledProtocolsDialog.x: 346
+gui.geom.EnabledProtocolsDialog.y: 217
+gui.geom.EnabledProtocolsDialog.width: 987
+gui.geom.EnabledProtocolsDialog.height: 595
+# TRUE or FALSE (case-insensitive).
+gui.geom.EnabledProtocolsDialog.maximized: FALSE
+
+# Geometry and maximized state of DecodeAsDialog window.
+# Decimal integers.
+gui.geom.DecodeAsDialog.x: 465
+gui.geom.DecodeAsDialog.y: 285
+gui.geom.DecodeAsDialog.width: 750
+gui.geom.DecodeAsDialog.height: 460
+# TRUE or FALSE (case-insensitive).
+gui.geom.DecodeAsDialog.maximized: FALSE
+
+# Geometry and maximized state of RtpAnalysisDialog window.
+# Decimal integers.
+gui.geom.RtpAnalysisDialog.x: 1849
+gui.geom.RtpAnalysisDialog.y: 133
+gui.geom.RtpAnalysisDialog.width: 960
+gui.geom.RtpAnalysisDialog.height: 744
+# TRUE or FALSE (case-insensitive).
+gui.geom.RtpAnalysisDialog.maximized: FALSE
+
+# Geometry and maximized state of PacketDialog window.
+# Decimal integers.
+gui.geom.PacketDialog.x: 0
+gui.geom.PacketDialog.y: 0
+gui.geom.PacketDialog.width: 1920
+gui.geom.PacketDialog.height: 1080
+# TRUE or FALSE (case-insensitive).
+gui.geom.PacketDialog.maximized: TRUE
+
+# Geometry and maximized state of ManageInterfacesDialog window.
+# Decimal integers.
+gui.geom.ManageInterfacesDialog.x: 358
+gui.geom.ManageInterfacesDialog.y: 349
+gui.geom.ManageInterfacesDialog.width: 750
+gui.geom.ManageInterfacesDialog.height: 425
+# TRUE or FALSE (case-insensitive).
+gui.geom.ManageInterfacesDialog.maximized: FALSE
+
+# Geometry and maximized state of User DLTs Table window.
+# Decimal integers.
+gui.geom.User DLTs Table.x: 450
+gui.geom.User DLTs Table.y: 360
+gui.geom.User DLTs Table.width: 566
+gui.geom.User DLTs Table.height: 403
+# TRUE or FALSE (case-insensitive).
+gui.geom.User DLTs Table.maximized: FALSE
+
+# Custom colors.
+# List of custom colors selected in Qt color picker.
+gui.custom_colors: 
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff"
